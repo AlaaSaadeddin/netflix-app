@@ -1,0 +1,35 @@
+.text {
+  color: white;
+  /* width: 90%;
+  margin: auto; */
+}
+
+.story-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border-bottom: 8px solid #222;
+}
+
+.story-card-container h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.story-img {
+  width: 48%;
+  height: 100%;
+  position: relative;
+}
+
+.story-video {
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 20%;
+  left: 12%;
+}
