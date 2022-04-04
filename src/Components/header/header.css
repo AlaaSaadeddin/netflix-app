@@ -1,0 +1,37 @@
+header {
+  /* border: 3px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.logo svg {
+  width: 8.375rem;
+  height: 2.25rem;
+  fill: #e50914;
+}
+
+.sign-in {
+  text-decoration: none;
+  color: white;
+  background-color: #e50914;
+  padding: 7px 17px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* .header-icon {
+  background-color: orangered;
+  font-size: 50px;
+} */
+
+.select {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #aaa;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 7px 17px;
+}

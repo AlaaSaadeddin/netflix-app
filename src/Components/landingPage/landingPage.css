@@ -1,0 +1,28 @@
+main {
+  width: 100%;
+  height: 758px;
+  overflow: hidden;
+  position: relative;
+  background: url(../../Images/background.jpg);
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 8px solid #222;
+}
+
+.overly-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
